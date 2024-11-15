@@ -2,9 +2,9 @@
   <footer class="footer section">
     <div class="footer__container container grid">
       <div class="footer__data">
-        <h2 class="footer__title">Explora el Mundo</h2>
+        <h2 class="footer__title">NovoHotelPark</h2>
         <p class="footer__description">
-          Encuentra destinos increíbles para tu próximo viaje. ¡La aventura te espera!
+          Encuentra destinos increíbles para tu próxima parada. ¡La aventura te espera!
         </p>
       </div>
       <!-- Por las dudas dejo esto aqui si llegara a servir en un futuro  el css esta aplicado -->
