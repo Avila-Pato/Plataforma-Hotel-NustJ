@@ -7,6 +7,6 @@ export default defineNuxtConfig({
     'remixicon/fonts/remixicon.css',
   ],
   plugins: [
-    { src: '~/plugins/navigation.js', mode: 'client' }
+    { src: '~/utils/navigation.js', mode: 'client' }
   ]
 })
