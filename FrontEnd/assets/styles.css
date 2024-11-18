@@ -325,10 +325,30 @@
  
  .home__title {
    font-size: var(--biggest-font-size);
-   margin-top: 5rem;
-   
-   
+   margin-top: 0rem;
  }
+ @media (max-width: 1024px) {
+  .home__title {
+    font-size: calc(var(--biggest-font-size) * 0.9); /* Reducir el tamaño de la fuente en pantallas medianas */
+    margin-top: 5rem; /* Ajustar el margen */
+  }
+}
+
+@media (max-width: 768px) {
+  .home__title {
+    font-size: calc(var(--biggest-font-size) * 0.8); /* Ajustar aún más en pantallas más pequeñas */
+    margin-top: 5rem; /* Ajustar margen */
+  }
+}
+
+@media (max-width: 480px) {
+  .home__title {
+    font-size: calc(var(--biggest-font-size) * 0.7); /* Reducir aún más en pantallas más pequeñas */
+    margin-top: 5rem; /* Reducir el margen */
+  }
+}
+
+
  
  .home__description {
    margin-bottom: 2rem;
