@@ -1,8 +1,6 @@
 <template>
   <header class="header" id="header">
     <nav class="nav container">
-      <a href="#" class="nav__logo">NovoHotelPark</a>
-
       <div class="nav__menu" id="nav-menu">
         <ul class="nav__list">
           <li class="nav__item">
